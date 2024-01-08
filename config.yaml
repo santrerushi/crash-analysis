@@ -1,0 +1,19 @@
+input_filepath:
+  charges: Data/Charges_use.csv
+  damages: Data/Damages_use.csv
+  endorse: Data/Endorse_use.csv
+  primary_person: Data/Primary_Person_use.csv
+  units: Data/Units_use.csv
+  restrict: Data/Restrict_use.csv
+
+output_path:
+  question_1: Output/1
+  question_2: Output/2
+  question_3: Output/3
+  question_4: Output/4
+  question_5: Output/5
+  question_6: Output/6
+  question_7: Output/7
+  question_8: Output/8
+  question_9: Output/9
+  question_10: Output/10
