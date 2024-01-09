@@ -2,9 +2,9 @@
 
 ## Details
 
-1) `Data` directory has all the required data to perform the analysis
-2) `Data_Processor` directory has a module were the class is define and all the methods are define to perform the analysis
-3) `config.yaml` is the config yaml file were the input file's path and output file's path is define which is config driver and module will take it from the same config file
-4) `main.py` is main method were all the methods are call to run it
-5) You can clone this repo and use `spark-submit --master local[2] main.py` command to run the module which will generate the Output directory
-6) `Output` directory is were all the results will be stored in form of csv files
+1) `Data` directory contains all the required data for performing the analysis
+2) `Data_Processor` directory includes a module where the class and all the methods for analysis are defined
+3) `config.yaml` file serves as the configuration YAML file, where the paths for input and output files are defined. These configurations are read by the main driver and module from the same config file
+4) `main.py` file contains the main method where all the required methods are called to execute the analysis
+5) To run the module, you can clone this repository and use the spark-submit --master local[2] main.py command, which will generate the Output directory
+6) `Output` is where all the results will be stored in the form of CSV files
